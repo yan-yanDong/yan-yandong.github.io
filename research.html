@@ -39,29 +39,35 @@
   </li>
     </ul>
 
-<h3>Multi-armed Bandits</h3>
+<h3>Online Learning</h3>
 <ul>
   <li>
-    <p>Combinatorial Multi-Armed Bandit with Switching Cost<p>
-    <p>I studied the combinatorial bandit problem with a cost associated with switching between selected arms in each round. 
-    I developed theoretical performance lower bounds and designed 
-      efficient algorithms with low regret for both bandit and semi-bandit feedback scenarios, while accounting for switching costs incurred 
-      when changing decisions between rounds.</p>
+    <p>Adversarial Combinatorial Multi-Armed Bandit with Switching Cost<p>
+    <p> 
+      I studied the adversarial combinatorial multi-armed bandit (MAB) problem where switching between selected arms across rounds 
+      incurs a cost.  To characterize the inherent difficulty of this problem, I derived minimax lower bounds on the regret to
+      understand the fundamental performance limits, and developed 
+      algorithms with provable upper bounds under both bandit and semi-bandit feedback. While the tightness of the bounds remains
+      open, the results shed light on the complexity introduced by switching constraints and suggest directions for further refinement.
+</p>
   </li>
   <li>
-    <p>Multi-Armed Bandit with Delays on the Reward Feedback<p>
-    <p>Another focus of my research has been on multi-armed bandit problems where the reward feedback is delayed, aiming to design algorithms 
-      that efficiently handle such delays and minimize sample complexity of fixed-confidence best arm identification problem with the 
-      feedback latency.</p>
+    <p>Multi-Armed Bandit with Delayed Feedback<p>
+    <p>I am currently working on the best arm identification problem under delayed feedback, aiming to develop algorithms that 
+      can effectively accommodate such delays. 
+      The goal is to minimize the sample complexity in the fixed-confidence setting while accounting for feedback latency.</p>
   </li>
 </ul>
 
 <h3>Optimal Finite-Blocklength Codes</h3>
 <ul>
-    <li><p>Optimal Finite Length Codes for Binary Symmetric Channels (BSC)<p>
-    <p> I have focused on codes with short block lengths, particularly designing block codes that maximize the ML decoding probability for BSC.
-      The comparion method was contructed so that different codes with minor difference can be compared with respect to the ML 
-      decoding performance.
+    <li><p>Optimal Finite Length Codes for Binary Symmetric Channels (BSCs)<p>
+    <p> As part of my interest in finite-length information theory, I have investigated the structure and performance of block codes 
+      with short lengths. In particular, I focused on identifying codes with four codewords that maximize the probability of correct 
+      decoding under maximum likelihood (ML) decoding for the binary symmetric channel (BSC). To enable rigorous comparisons,
+      I developed a methodology for evaluating the ML decoding performance of codes with subtle structural differences. More broadly, 
+      my research aims to understand the performance limits of finite-length codes from diverse perspectives and to design efficient
+      codes and decoding schemes tailored to the short blocklength regime.
     </p>
   </li>
 </ul>
